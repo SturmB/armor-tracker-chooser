@@ -1,14 +1,46 @@
 {
   "name": "armor-tracker-chooser",
-  "private": true,
+  "description": "Tiny static HTML site to choose which armor tracker to use",
   "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+  "author": "Chris McGee",
+  "bugs": {
+    "url": "https://github.com/SturmB/armor-tracker-chooser/issues"
+  },
+  "dependencies": {
+    "esbuild": "^0.17.18",
+    "nanoid": "^3.3.6",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.23",
+    "rollup": "^3.21.2",
+    "source-map-js": "^1.0.2"
   },
   "devDependencies": {
     "vite": "^4.3.2"
-  }
+  },
+  "homepage": "https://github.com/SturmB/armor-tracker-chooser#readme",
+  "keywords": [
+    "armor",
+    "botw",
+    "html",
+    "static",
+    "tailwind",
+    "totk",
+    "tracker",
+    "upgrade",
+    "vite",
+    "zelda"
+  ],
+  "license": "GPL-3.0-or-later",
+  "main": "main.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SturmB/armor-tracker-chooser.git"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "type": "module"
 }
